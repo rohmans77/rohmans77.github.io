@@ -1,0 +1,21 @@
+Langkah-langkahnya sbb.:
+
+    Setelah anda download template, maka ekstrak file zip tersebut dan hasilnya dapat anda simpan dimana saja pada disk komputer anda.
+    Open file index.html, akan muncul halaman awal website di browser anda. Dalambagian content, masih kosong, apa sebabnya.? 
+    Karena website kita posisi content menggunakan iframe (lihat baris ke 50 dari source-code index.html, bila dibuka dengan NOTEPAD). 
+    Disitu masih belum ada listing src=”namafile” yaitu file yang akan kita tampilkan pertama kali. 
+    Coba kalau anda tambahkan  src=”beranda.htm”  maka waktu browser di reload, halaman tersebut tidak kosong lagi. 
+   Kenapa filenya dot htm .? Karena waktu men-save listing file tersebut saja gunakan dot htm. Dan dalam membuat halaman ini saya gunakan NOTEPAD, kemudian saya simpan dengan dot htm.
+    Andapun dapat merubah tidak hanya berupa teks, 
+    namun juga dapat berupa foto atau gambar atau widget aplikasi, misalnya untuk widget berupa tanggal, 
+    jumlah pengunjung, atau widget lainnya yang dapat di download.
+    Untuk mengisi foto atau gambar, terlebih dahulu letakkan gambar pada folder web atau dibuatkan folder sendiri tetapi masih didalam folder web 
+    dengan menambahkan src=”namafile gambar”.
+    Sekarang menambah konten web dengan Word Office.:
+
+    Buka Microsoft Word anda.
+    Ketikkan materi yang akan dipublish.
+    Simpan dengan Save As Type Web Page. pada folder web tadi. (sebagai contoh telah saya sertakan file doc.htm )
+    Agar dapat dipanggil melalui menu, edit listing baris ke 37 dari index.html dengan:
+
+<li><a href=”nama file anda“>Judul Menu</a></li>
